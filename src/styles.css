@@ -1,0 +1,29 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.form--div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 2rem;
+  border: solid grey 1px;
+  border-radius: 1rem;
+}
+header {
+  display: flex;
+  gap: 3rem;
+}
+.weather--emoji {
+  font-size: 5rem;
+}
+.weather--temperature {
+  font-size: 5rem;
+}
